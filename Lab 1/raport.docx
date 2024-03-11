@@ -1,0 +1,26 @@
+Analiza i wnioski:
+Zbiór Iris: Model kNN osiągnął bardzo wysoką dokładność zarówno na zbiorze testowym, 
+jak i w procesie walidacji krzyżowej, co wskazuje na jego skuteczność dla tego zbioru danych.
+Zbiór Wine: Dokładność modelu kNN jest niższa w porównaniu do zbioru Iris, co może wynikać 
+z większej złożoności zbioru danych Wine (więcej cech i klas). 
+Wyniki walidacji krzyżowej również potwierdzają niższą średnią dokładność, sugerując, 
+że model może nie być tak dobrze dopasowany do danych jak w przypadku zbioru Iris.
+
+Czas działania algorytmu i uczenia modelu:
+Czas działania algorytmu i uczenia modelu nie został tutaj zmierzony bezpośrednio, 
+ale kNN jest znany z tego, że czas predykcji rośnie wraz z ilością danych ze względu na 
+potrzebę obliczenia odległości do każdego punktu w zestawie danych. 
+Trening modelu jest generalnie szybki, ponieważ nie wymaga on intensywnych obliczeń 
+poza przechowywaniem punktów treningowych.
+
+Wnioski:
+Wybór wartości k (liczba sąsiadów) i metryki odległości może znacząco wpłynąć na wyniki. 
+Warto eksperymentować z różnymi ustawieniami tych parametrów.
+Zastosowanie walidacji krzyżowej jest kluczowe dla oceny wydajności modelu na różnych 
+podzbiorach danych, co pozwala na lepszą generalizację wyników.
+Modele kNN mogą wymagać starannego doboru cech i przetwarzania wstępnego danych 
+(np. normalizacji), aby poprawić ich skuteczność, szczególnie dla zbiorów z dużą liczbą cech.
+Dla pełniejszej analizy warto przetestować różne wartości k oraz różne metryki odległości, 
+a także zbadać wpływ przetwarzania wstępnego danych na wyniki klasyfikacji. ​​
+
+
